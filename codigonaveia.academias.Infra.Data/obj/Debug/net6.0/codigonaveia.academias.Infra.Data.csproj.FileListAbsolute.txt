@@ -1,0 +1,17 @@
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.deps.json
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.runtimeconfig.json
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Domain.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\bin\Debug\net6.0\codigonaveia.academias.Domain.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.csproj.AssemblyReference.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.AssemblyInfoInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.AssemblyInfo.cs
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.csproj.CoreCompileInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.csproj.CopyComplete
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\refint\codigonaveia.academias.Infra.Data.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\codigonaveia.academias.Infra.Data.genruntimeconfig.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Infra.Data\obj\Debug\net6.0\ref\codigonaveia.academias.Infra.Data.dll

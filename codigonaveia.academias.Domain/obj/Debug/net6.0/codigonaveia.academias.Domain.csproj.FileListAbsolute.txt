@@ -1,0 +1,12 @@
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\bin\Debug\net6.0\codigonaveia.academias.Domain.deps.json
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\bin\Debug\net6.0\codigonaveia.academias.Domain.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\bin\Debug\net6.0\codigonaveia.academias.Domain.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.csproj.AssemblyReference.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.AssemblyInfoInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.AssemblyInfo.cs
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.csproj.CoreCompileInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\refint\codigonaveia.academias.Domain.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\codigonaveia.academias.Domain.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Domain\obj\Debug\net6.0\ref\codigonaveia.academias.Domain.dll

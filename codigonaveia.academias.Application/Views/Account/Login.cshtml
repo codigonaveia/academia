@@ -1,0 +1,41 @@
+﻿@model codigonaveia.academias.Application.Models.Account.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutGeneral.cshtml";
+}
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="~/img/Login.jpg" style="width:100%" />
+
+        </div>
+        <div class="col-sm-6">
+            <form class="row g-3" asp-controller="Account" asp-action="Login" method="post">
+                
+                <div class="col-12">
+                    <label for="Usuario" class="form-label">Usuário</label>
+                    <input type="text" class="form-control" asp-for="UserName" placeholder="Digite um usuário">
+                </div>
+                <div class="col-12">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" class="form-control" asp-for="Password">
+                </div>
+               
+                <div class="col-12">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">Login</button>
+                     <br />
+                    <a class="btn btn-outline-warning" asp-area="" asp-controller="Account" asp-action="ForgotPassword"><i class="fa-solid fa-key"></i> Esqueci minha senha</a>
+                    </div>
+                    
+                  
+                </div>
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

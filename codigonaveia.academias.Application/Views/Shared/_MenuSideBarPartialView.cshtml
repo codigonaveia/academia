@@ -1,0 +1,11 @@
+﻿@{
+    //Este aqui é um menu SideBar para todas paginas
+}
+ <div class="d-grid gap-2">
+    <button type="button" class="btn btn-outline-primary" id="Alunos" onclick="location.href='@Url.Action("MostrarListaAlunos","Alunos")'"><i class="fa-solid fa-user-plus"></i> Alunos</button>
+    <button type="button" class="btn btn-outline-primary" id="Professores" onclick="location.href='@Url.Action("MostrarListaProfessores","Professores")'"><i class="fa-solid fa-user-tag"></i> Professores</button>
+    <button type="button" class="btn btn-outline-primary" id="Equipamentos" onclick="location.href='@Url.Action("MostrarListaEquipamentos","Equipamentos")'"><i class="fa-solid fa-user-tag"></i> Equipamentos</button>
+    <button type="button" class="btn btn-outline-danger" id="Financeiro" onclick="location.href='@Url.Action("ListaDebitosPendentes","Financeiro")'"><i class="fa-solid fa-user-tag"></i> Financeiro</button>
+ </div>
+    
+
