@@ -1,0 +1,17 @@
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Repositories.deps.json
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Repositories.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Repositories.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Domain.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\bin\Debug\net6.0\codigonaveia.academias.Domain.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.csproj.AssemblyReference.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.AssemblyInfoInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.AssemblyInfo.cs
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.csproj.CoreCompileInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.csproj.CopyComplete
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\refint\codigonaveia.academias.Repositories.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\codigonaveia.academias.Repositories.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Repositories\obj\Debug\net6.0\ref\codigonaveia.academias.Repositories.dll

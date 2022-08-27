@@ -26,8 +26,7 @@ namespace codigonaveia.academias.Infra.Data.DataConfig
                 .HasColumnType("varchar(50)")
                 .IsRequired();
 
-            
-
+                          
         }
     }
 }

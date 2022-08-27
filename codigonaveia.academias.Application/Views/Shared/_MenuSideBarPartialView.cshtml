@@ -2,6 +2,8 @@
     //Este aqui é um menu SideBar para todas paginas
 }
  <div class="d-grid gap-2">
+     <img src="~/img/avatar.png" class="rounded-circle imgAvatar" alt="Avatar" />
+      <p style="text-align:center">@User.Identity.Name</p>
     <button type="button" class="btn btn-outline-primary" id="Alunos" onclick="location.href='@Url.Action("MostrarListaAlunos","Alunos")'"><i class="fa-solid fa-user-plus"></i> Alunos</button>
     <button type="button" class="btn btn-outline-primary" id="Professores" onclick="location.href='@Url.Action("MostrarListaProfessores","Professores")'"><i class="fa-solid fa-user-tag"></i> Professores</button>
     <button type="button" class="btn btn-outline-primary" id="Equipamentos" onclick="location.href='@Url.Action("MostrarListaEquipamentos","Equipamentos")'"><i class="fa-solid fa-user-tag"></i> Equipamentos</button>

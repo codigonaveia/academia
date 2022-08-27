@@ -1,4 +1,5 @@
 ﻿using codigonaveia.academias.Domain.Entities.Account;
+using codigonaveia.academias.Domain.Entities.Alunos;
 using codigonaveia.academias.Domain.Entities.EmailConfig;
 using codigonaveia.academias.Infra.Data.DataConfig;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -10,6 +11,8 @@ namespace codigonaveia.academias.Infra.Data.Contexto
     public class DataContexto:IdentityDbContext<Users>
     {
         #region Table
+       
+        public DbSet<entidadeAlunos>? Alunos { get; set; }
         public DbSet<entidadeEmailConfiguracoes>? EmailConfiguracoes { get; set; }
         public DbSet<entidadeEmailAddress>? EmailAddress { get; set; }
         public DbSet<entidadeEmailPasswordAccount>? EmailPasswordAccount { get; set; }
@@ -19,9 +22,14 @@ namespace codigonaveia.academias.Infra.Data.Contexto
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Users>(new UsersConfiguration().Configure);
+            builder.Entity<entidadeAlunos>(new AlunosConfiguration().Configure);
+            builder.Entity<entidadeEmailAddress>(new EmailAddressConfiguration().Configure);
             builder.Entity<entidadeEmailAddress>(new EmailAddressConfiguration().Configure);
             builder.Entity<entidadeEmailConfiguracoes>(new EmailConfiguracoesConfiguration().Configure);
             builder.Entity<entidadeEmailPasswordAccount>(new EmailPasswordAccountConfiguration().Configure);
+
+           
+
             base.OnModelCreating(builder);
         }
     }

@@ -1,12 +1,3 @@
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.csproj.AssemblyReference.cache
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.AssemblyInfoInputs.cache
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.AssemblyInfo.cs
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.csproj.CoreCompileInputs.cache
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.MvcApplicationPartsAssemblyInfo.cs
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.MvcApplicationPartsAssemblyInfo.cache
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.RazorAssemblyInfo.cache
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.RazorAssemblyInfo.cs
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\appsettings.Development.json
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\appsettings.json
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\metadata\icons.json
@@ -17,6 +8,9 @@ E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academ
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Application.runtimeconfig.json
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Application.dll
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Application.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\FluentValidation.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\Humanizer.dll
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\MessagePack.dll
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -264,9 +258,19 @@ E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academ
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.dll
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Infra.Data.pdb
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Domain.pdb
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.csproj.AssemblyReference.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.AssemblyInfoInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.AssemblyInfo.cs
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.csproj.CoreCompileInputs.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.MvcApplicationPartsAssemblyInfo.cs
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.MvcApplicationPartsAssemblyInfo.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.RazorAssemblyInfo.cache
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.RazorAssemblyInfo.cs
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\staticwebassets.build.json
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\staticwebassets.development.json
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutGeneral.cshtml.rz.scp.css
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\scopedcss\bundle\codigonaveia.academias.Application.styles.css
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\scopedcss\projectbundle\codigonaveia.academias.Application.bundle.scp.css
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.csproj.CopyComplete
@@ -275,4 +279,3 @@ E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academ
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.pdb
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.genruntimeconfig.cache
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\ref\codigonaveia.academias.Application.dll
-E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutGeneral.cshtml.rz.scp.css

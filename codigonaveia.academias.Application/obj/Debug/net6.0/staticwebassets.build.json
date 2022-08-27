@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9j4vw5hLdWn+qjjET2+uiEQKMBQvR/gmEhy22LSSdvA=",
+  "Hash": "dIW36wxk92thlr+qbm8FGdF/fUgcG3BMzw9K+F0yMgM=",
   "Source": "codigonaveia.academias.Application",
   "BasePath": "_content/codigonaveia.academias.Application",
   "Mode": "Default",
@@ -406,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Canal\\CodigoNaVeia\\ProjetoAcademia\\codigonaveia.academias\\codigonaveia.academias.Application\\wwwroot\\img\\avatar.png",
+      "SourceId": "codigonaveia.academias.Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Canal\\CodigoNaVeia\\ProjetoAcademia\\codigonaveia.academias\\codigonaveia.academias.Application\\wwwroot\\",
+      "BasePath": "_content/codigonaveia.academias.Application",
+      "RelativePath": "img/avatar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar.png"
     },
     {
       "Identity": "E:\\Canal\\CodigoNaVeia\\ProjetoAcademia\\codigonaveia.academias\\codigonaveia.academias.Application\\wwwroot\\img\\Capa.jpg",

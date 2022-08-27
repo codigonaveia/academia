@@ -97,6 +97,71 @@ namespace codigonaveia.academias.Infra.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("codigonaveia.academias.Domain.Entities.Alunos.entidadeAlunos", b =>
+                {
+                    b.Property<int>("IdAlunos")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAlunos"), 1L, 1);
+
+                    b.Property<string>("Bairro")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("varchar(14)");
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("varchar(11)");
+
+                    b.Property<string>("Cep")
+                        .IsRequired()
+                        .HasColumnType("varchar(20)");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<string>("Complemento")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<byte[]>("FotoAvatar")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("Logradouro")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<string>("Uf")
+                        .IsRequired()
+                        .HasColumnType("varchar(2)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("IdAlunos");
+
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
+
+                    b.ToTable("Alunos", (string)null);
+                });
+
             modelBuilder.Entity("codigonaveia.academias.Domain.Entities.EmailConfig.entidadeEmailAddress", b =>
                 {
                     b.Property<int>("Id")
@@ -300,6 +365,17 @@ namespace codigonaveia.academias.Infra.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("codigonaveia.academias.Domain.Entities.Alunos.entidadeAlunos", b =>
+                {
+                    b.HasOne("codigonaveia.academias.Domain.Entities.Account.Users", "Users")
+                        .WithOne("Alunos")
+                        .HasForeignKey("codigonaveia.academias.Domain.Entities.Alunos.entidadeAlunos", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Users");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -349,6 +425,11 @@ namespace codigonaveia.academias.Infra.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("codigonaveia.academias.Domain.Entities.Account.Users", b =>
+                {
+                    b.Navigation("Alunos");
                 });
 #pragma warning restore 612, 618
         }

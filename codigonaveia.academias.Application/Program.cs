@@ -1,5 +1,7 @@
 using codigonaveia.academias.Domain.Entities.Account;
 using codigonaveia.academias.Infra.Data.Contexto;
+using codigonaveia.academias.Repositories.Interfaces;
+using codigonaveia.academias.Repositories.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -29,7 +31,8 @@ builder.Services.AddIdentity<Users, IdentityRole>(options =>
   .AddDefaultTokenProviders();
 
 builder.Services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromHours(3));
-   
+
+builder.Services.AddScoped<IAlunosRepository, AlunosRepository>();
 
 builder.Services.AddControllersWithViews();
 
