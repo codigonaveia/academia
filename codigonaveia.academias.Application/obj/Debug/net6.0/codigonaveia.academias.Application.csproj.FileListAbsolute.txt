@@ -279,3 +279,5 @@ E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academ
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.pdb
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\codigonaveia.academias.Application.genruntimeconfig.cache
 E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\obj\Debug\net6.0\ref\codigonaveia.academias.Application.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Repositories.dll
+E:\Canal\CodigoNaVeia\ProjetoAcademia\codigonaveia.academias\codigonaveia.academias.Application\bin\Debug\net6.0\codigonaveia.academias.Repositories.pdb

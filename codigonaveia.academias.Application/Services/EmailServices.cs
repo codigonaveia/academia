@@ -4,14 +4,14 @@ using System.Text;
 
 namespace codigonaveia.academias.Application.Services
 {
-    public class EmailServices:entidadeEmailPasswordAccountModelView
+    public class EmailServices:EmailPasswordAccountModelView
     {
         private const string Smtp = "smtp.mail.yahoo.com";
         private const int Port = 587;
         private const string UserEmail = "edinaldolemos@yahoo.com.br";
         
        
-        public async Task SendEmailAsync(entidadeEmailAddressModelView EmailServices)
+        public async Task SendEmailAsync(EmailAddressModelView EmailServices)
         {
             try
             {

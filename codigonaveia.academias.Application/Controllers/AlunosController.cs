@@ -1,6 +1,6 @@
 ﻿using codigonaveia.academias.Application.Models;
 using codigonaveia.academias.Domain.Entities.Alunos;
-using codigonaveia.academias.Repositories.Interfaces;
+using codigonaveia.academias.Domain.Intefaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace codigonaveia.academias.Application.Controllers
@@ -17,7 +17,7 @@ namespace codigonaveia.academias.Application.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Registrar(entidadeAlunosViewModel model)
+        public async Task<IActionResult> Registrar(AlunosViewModel model)
         {
             if (ModelState.IsValid)
             {

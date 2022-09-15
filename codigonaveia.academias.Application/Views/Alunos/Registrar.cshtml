@@ -1,0 +1,90 @@
+﻿@model codigonaveia.academias.Application.Models.AlunosViewModel
+@{
+    ViewData["Title"] = "Registrar";
+    Layout = "~/Views/Shared/_LayoutGeneral.cshtml";
+}
+
+<div class="Container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <p class="text-center">Menu Controles</p>
+            <hr>
+             @await Html.PartialAsync("~/Views/Shared/_MenuSideBarPartialView.cshtml")
+            <div class="d-grid gap-2">
+              
+            </div>
+
+        </div>
+        <div class="col-sm-10">
+            <p class="text-center">Formulário de cadastro de Alunos</p>
+            <hr />
+            @Html.ActionLink("Voltar", "MostrarListaAlunos","Alunos", null, new {@class="btn btn-warning"})
+            <hr />
+            <div class="Container-formulario">
+                <form asp-action="Registro" asp-controller="Alunos" method="post">
+                    <div class="mb-3">
+                        <input type="file" class="form-group" asp-for="FotoAvatar" />
+                    </div>
+                    <div class="mb-3">
+                        <label>ESCOLHA O USUARIO</label>
+                       <select class="form-select" asp-for="UserId">
+                           <option selected value="0">--SELECIONE--</option>
+                            <option value="1">Usuario 1</option>
+                            <option value="2">Usuario 2</option>
+                       </select>
+                    </div>
+                    <div class="mb-3">
+                        <label>CPF</label>
+                        <input type="text" class="form-control" asp-for="CPF" />
+                    </div>
+                    <div class="mb-3">
+                        <label>CELULAR</label>
+                        <input type="text" class="form-control" asp-for="Celular" />
+                    </div>
+                    <div class="mb-3">
+                        <label>E-MAIL</label>
+                        <input type="email" class="form-control" asp-for="Email" />
+                    </div>
+                    <div class="mb-3">
+                        <label>DATA DE NASCIMENTO</label>
+                        <input type="date" class="form-control" asp-for="DataNascimento" />
+                    </div>
+                    <hr />
+                    <label class="alert alert-info">ÁREA DE ENDEREÇO</label>
+                    <hr />
+                    <div class="mb-3">
+                        <label>CEP</label>
+                        <input type="text" class="form-control" asp-for="Cep" />
+                    </div>
+                    <div class="mb-3">
+                        <label>LOGRADOURO</label>
+                        <input type="text" class="form-control" asp-for="Logradouro" />
+                    </div>
+                    <div class="mb-3">
+                        <label>COMPLEMENTO</label>
+                        <input type="text" class="form-control" asp-for="Complemento" />
+                    </div>
+                    <div class="mb-3">
+                        <label>BAIRRO</label>
+                        <input type="text" class="form-control" asp-for="Bairro" />
+                    </div>
+                    <div class="mb-3">
+                        <label>CIDADE</label>
+                        <input type="text" class="form-control" asp-for="Cidade" />
+                    </div>
+                    <div class="mb-3">
+                        <label>UF</label>
+                        <input type="text" class="form-control" asp-for="Uf" />
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Registro</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

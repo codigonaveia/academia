@@ -16,11 +16,10 @@ namespace codigonaveia.academias.Infra.Data.Repositories
 
         public async Task<IEnumerable<entidadeAlunos>> GetByName(string Nome)
         {
-            if (Nome == null)
-            {
+            
                 throw new ArgumentNullException(nameof(Nome));
-            }
-            return await _contexto.Set<entidadeAlunos>().Include(x => x.Users.FirstName == Nome).ToListAsync();
+            
+            
 
         }
     }

@@ -1,7 +1,10 @@
-﻿namespace codigonaveia.academias.Domain.Entities.Base
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace codigonaveia.academias.Domain.Entities.Base
 {
     public class Endereco
     {
+        
         public string? Cep { get; set; }
         public string? Logradouro { get; set; }
         public string? Complemento { get; set; }

@@ -152,7 +152,7 @@ namespace codigonaveia.academias.Application.Controllers.Account
                        
                         var mail = new EmailServices();
 
-                        var msg = new entidadeEmailAddressModelView()
+                        var msg = new EmailAddressModelView()
                         {
                             Subject = "E-mail enviado para alteração de senha",
                             To = mod.Email,

@@ -1,7 +1,7 @@
 using codigonaveia.academias.Domain.Entities.Account;
+using codigonaveia.academias.Domain.Intefaces;
 using codigonaveia.academias.Infra.Data.Contexto;
-using codigonaveia.academias.Repositories.Interfaces;
-using codigonaveia.academias.Repositories.Services;
+using codigonaveia.academias.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
