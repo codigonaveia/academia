@@ -33,6 +33,7 @@ builder.Services.AddIdentity<Users, IdentityRole>(options =>
 builder.Services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromHours(3));
 
 builder.Services.AddScoped<IAlunosRepository, AlunosRepository>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 builder.Services.AddControllersWithViews();
 

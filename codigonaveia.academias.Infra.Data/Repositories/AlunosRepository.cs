@@ -2,6 +2,7 @@
 using codigonaveia.academias.Domain.Intefaces;
 using codigonaveia.academias.Infra.Data.Contexto;
 using codigonaveia.academias.Infra.Data.Repositories.Base;
+using Microsoft.EntityFrameworkCore;
 
 namespace codigonaveia.academias.Infra.Data.Repositories
 {
@@ -14,12 +15,12 @@ namespace codigonaveia.academias.Infra.Data.Repositories
             _contexto = contexto;
         }
 
-        public async Task<IEnumerable<entidadeAlunos>> GetByName(string Nome)
+        public async Task<IEnumerable<entidadeAlunos>> GetAlunos()
         {
-            
-                throw new ArgumentNullException(nameof(Nome));
-            
-            
+
+            return await _contexto.Set<entidadeAlunos>().AsNoTracking().ToListAsync(); ;
+
+
 
         }
     }

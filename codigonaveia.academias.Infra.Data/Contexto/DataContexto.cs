@@ -11,7 +11,7 @@ namespace codigonaveia.academias.Infra.Data.Contexto
     public class DataContexto:IdentityDbContext<Users>
     {
         #region Table
-       
+
         public DbSet<entidadeAlunos>? Alunos { get; set; }
         public DbSet<entidadeEmailConfiguracoes>? EmailConfiguracoes { get; set; }
         public DbSet<entidadeEmailAddress>? EmailAddress { get; set; }

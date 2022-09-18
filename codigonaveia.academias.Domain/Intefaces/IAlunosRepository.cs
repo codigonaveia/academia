@@ -5,6 +5,6 @@ namespace codigonaveia.academias.Domain.Intefaces
 {
     public interface IAlunosRepository : IRepositoryBase<entidadeAlunos>
     {
-        Task<IEnumerable<entidadeAlunos>> GetByName(string Nome);
+        Task<IEnumerable<entidadeAlunos>> GetAlunos();
     }
 }

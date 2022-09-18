@@ -21,16 +21,20 @@
             @Html.ActionLink("Voltar", "MostrarListaAlunos","Alunos", null, new {@class="btn btn-warning"})
             <hr />
             <div class="Container-formulario">
-                <form asp-action="Registro" asp-controller="Alunos" method="post">
+                <form asp-action="Registrar" asp-controller="Alunos" method="post" enctype="multipart/form-data">
                     <div class="mb-3">
-                        <input type="file" class="form-group" asp-for="FotoAvatar" />
+                        @if(TempData["Msg"]!=null){
+                            <label class="text-success">@TempData["Msg"]</label>
+                        }
+                    </div>
+                    <div class="mb-3">
+                        <input type="file" class="form-group" asp-for="FotoAvatar"/>
                     </div>
                     <div class="mb-3">
                         <label>ESCOLHA O USUARIO</label>
-                       <select class="form-select" asp-for="UserId">
-                           <option selected value="0">--SELECIONE--</option>
-                            <option value="1">Usuario 1</option>
-                            <option value="2">Usuario 2</option>
+                       <select class="form-select" asp-for="UserId" asp-items="ViewBag.Alunos">
+                           <option selected value="0">--ESCOLHA UM USUÁRIO--</option>
+                          
                        </select>
                     </div>
                     <div class="mb-3">
@@ -81,6 +85,7 @@
                             <button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Registro</button>
                         </div>
                     </div>
+                    <div asp-validation-summary="All" class="text-danger"></div>
                 </form>
             </div>
         </div>
